@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Bernard Arnault",
+    "role": "Businessman, investor and art collector",
+    "age": "72",
+    "country": "France",
+    "salary": "16704211",
+    "profileThumb": "https://i.ibb.co/bstwjKh/bernard-arnault-modified.png"
+  },
+  {
+    "id": "2",
+    "name": "Bill Gates",
+    "role": "Microsoft co-founder",
+    "age": "65",
+    "country": "United States",
+    "salary": "10567970",
+    "profileThumb": "https://i.ibb.co/D9mFGTm/bill-gates-modified.png"
+  },
+  {
+    "id": "3",
+    "name": "Elon Musk",
+    "role": "CEO and Chief Engineer at SpaceX",
+    "age": "49",
+    "country": "South Africa",
+    "salary": "13636091",
+    "profileThumb": "https://i.ibb.co/cDpqbck/elon-musk-modified.png"
+  },
+  {
+    "id": "4",
+    "name": "Jeff Bezos",
+    "role": "Computer engineer and media proprietor",
+    "age": "57",
+    "country": "United States",
+    "salary": "15851956",
+    "profileThumb": "https://i.ibb.co/x7S8HL4/jeff-bezos-modified.png"
+  },
+  {
+    "id": "5",
+    "name": "Larry Page",
+    "role": "American business magnate, computer scientist",
+    "age": "48",
+    "country": "United States",
+    "salary": "7755569",
+    "profileThumb": "https://i.ibb.co/QFMDvrd/larry-page-modified.png"
+  },
+  {
+    "id": "6",
+    "name": "Mark Zuckerberg",
+    "role": " Co-founding facebook",
+    "age": "36",
+    "country": "United States",
+    "salary": "8266880",
+    "profileThumb": "https://i.ibb.co/ZmCKKch/mark-zuckerberg-modified.png"
+  }
+]
