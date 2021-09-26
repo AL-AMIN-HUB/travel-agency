@@ -1,6 +1,6 @@
 # Man of Many Industries People
 
-This project was a tour with different rich people with [Create React App](https://richest-people-tour-in-the-world.netlify.app/).
+This project was a tour with different rich people with live site: [ https://richest-people-tour-in-the-world.netlify.app/](https://richest-people-tour-in-the-world.netlify.app/).
 
 ## Available Scripts
 
