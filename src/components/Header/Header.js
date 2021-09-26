@@ -27,7 +27,7 @@ const Header = () => {
             Home
           </a>
           <a href="/hire">Budget</a>
-          <a href="/help">Shop</a>
+          <a href="/help">Community</a>
           <a href="/about">About</a>
           <a href="/login">
             <i className="fas fa-user"></i> Login
