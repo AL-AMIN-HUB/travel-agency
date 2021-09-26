@@ -15,9 +15,9 @@
   transition: 0.3s;
 }
 .budget {
-  background-image: url(https://theplanetd.com/images/how-to-promote-your-travel-blog-header.jpg);
+  background-image: url(../../header.png);
   background-size: cover;
-  background-position: bottom , center;
+  background-position: bottom, center;
   background-repeat: no-repeat;
   padding: 10px;
 }
