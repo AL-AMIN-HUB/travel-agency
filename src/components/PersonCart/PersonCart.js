@@ -1,12 +1,12 @@
 import React from "react";
 
-const PersonCart = () => {
+const PersonCart = (props) => {
+  const { man } = props;
+
   return (
     <div>
-      <h3 className="text-info fw-bold">Tour Member: 1</h3>
-      <h4 className="text-info">
-        Total Cost: $ <br /> <span className="text-white">65465</span>
-      </h4>
+      <h4 className="text-white">{man.salary}</h4>
+      <p className="text-white fw-bold fs-4"> {man.name} </p>
     </div>
   );
 };

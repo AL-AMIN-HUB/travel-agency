@@ -9,16 +9,27 @@ const People = () => {
       .then((res) => res.json())
       .then((data) => setAllPerson(data));
   }, []);
+
+  const [person, setPerson] = useState([]);
+  const HandleMember = (persons) => {
+    const newMember = [...person, persons];
+    setPerson(newMember);
+  };
   return (
     <div className="row">
       <div className="person-container col-md-9 ps-5 row row-cols-md-3">
         {allPerson.map((person) => (
-          <Person key={person.id} person={person}></Person>
+          <Person key={person.id} person={person} handleMember={HandleMember}></Person>
         ))}
       </div>
 
       <div className="personCart-container col-md-3 text-center">
-        <PersonCart></PersonCart>
+        <h3 className="text-info fw-bolder">Tour Member: {person.length} </h3>
+        <h4 className="text-info fw-bold">Total Cost: $ </h4>
+
+        {person.map((man) => (
+          <PersonCart key={man.name} man={man}></PersonCart>
+        ))}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@
     "profession": "Businessman",
     "age": "72",
     "country": "France",
-    "salary": "16704211",
+    "salary": 16704211,
     "profileThumb": "https://i.ibb.co/bstwjKh/bernard-arnault-modified.png"
   },
   {
@@ -14,7 +14,7 @@
     "profession": "Microsoft co-founder",
     "age": "65",
     "country": "United States",
-    "salary": "10567970",
+    "salary": 10567970,
     "profileThumb": "https://i.ibb.co/D9mFGTm/bill-gates-modified.png"
   },
   {
@@ -23,7 +23,7 @@
     "profession": "Chief Engineer at SpaceX",
     "age": "49",
     "country": "South Africa",
-    "salary": "13636091",
+    "salary": 13636091,
     "profileThumb": "https://i.ibb.co/cDpqbck/elon-musk-modified.png"
   },
   {
@@ -32,7 +32,7 @@
     "profession": "Computer engineer",
     "age": "57",
     "country": "United States",
-    "salary": "15851956",
+    "salary": 15851956,
     "profileThumb": "https://i.ibb.co/x7S8HL4/jeff-bezos-modified.png"
   },
   {
@@ -41,7 +41,7 @@
     "profession": "computer scientist",
     "age": "48",
     "country": "United States",
-    "salary": "7755569",
+    "salary": 7755569,
     "profileThumb": "https://i.ibb.co/QFMDvrd/larry-page-modified.png"
   },
   {
@@ -50,7 +50,7 @@
     "profession": " Co-founding facebook",
     "age": "36",
     "country": "United States",
-    "salary": "8266880",
+    "salary": 8266880,
     "profileThumb": "https://i.ibb.co/ZmCKKch/mark-zuckerberg-modified.png"
   }
 ]

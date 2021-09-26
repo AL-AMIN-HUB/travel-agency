@@ -30,7 +30,7 @@ const Header = () => {
           <a href="/help">Shop</a>
           <a href="/about">About</a>
           <a href="/login">
-            <i className="fas fa-user"></i>
+            <i className="fas fa-user"></i> Login
           </a>
         </div>
       </nav>

@@ -4,6 +4,7 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import "./Person.css";
 
 const Person = (props) => {
+  // console.log(props);
   const { name, profession, age, country, profileThumb, salary } = props.person;
 
   const memberIcon = <FontAwesomeIcon icon={faUserPlus} />;
@@ -20,7 +21,9 @@ const Person = (props) => {
             <p className="card-text lead fs-4">Age: {age}</p>
             <p className="card-text lead fs-4">Country: {country}</p>
             <p className="card-text lead fs-4">Salary: ${salary}</p>
-            <button className="btn btn-warning fs-4">{memberIcon} Add to member</button>
+            <button onClick={() => props.handleMember(props.person)} className="btn btn-warning fs-4">
+              {memberIcon} Add to member
+            </button>
           </div>
         </div>
       </div>
