@@ -52,5 +52,59 @@
     "country": "United States",
     "salary": 8266880,
     "profileThumb": "https://i.ibb.co/ZmCKKch/mark-zuckerberg-modified.png"
+  },
+  {
+    "id": "7",
+    "name": "Gina Rinehart",
+    "profession": "Hancock Prospecting",
+    "age": "67",
+    "country": "Australia",
+    "salary": 3068144,
+    "profileThumb": "https://i.ibb.co/mtNpQ12/gina-rinehart-modified.png"
+  },
+  {
+    "id": "8",
+    "name": "Larry Ellison",
+    "profession": "American businessman",
+    "age": "77",
+    "country": "United States",
+    "salary": 7925978,
+    "profileThumb": "https://i.ibb.co/p139r9h/larry-ellison-modified.png"
+  },
+  {
+    "id": "9",
+    "name": "Mukesh Ambani",
+    "profession": "Indian businessman",
+    "age": "64",
+    "country": "Yemen",
+    "salary": 7158990,
+    "profileThumb": "https://i.ibb.co/68Ndq8Y/mukesh-ambani-modified.png"
+  },
+  {
+    "id": "10",
+    "name": "Scott Farquhar",
+    "profession": "Co-Chief Executive",
+    "age": "41",
+    "country": "Australia",
+    "salary": 1789817,
+    "profileThumb": "https://i.ibb.co/9VkTwbk/scott-farquhar-modified.png"
+  },
+  {
+    "id": "11",
+    "name": "Sergey Brin",
+    "profession": "Google co-founder",
+    "age": "47",
+    "country": "Russia",
+    "salary": 7585075,
+    "profileThumb": "https://i.ibb.co/m0NR2jt/sergey-brin-modified.png"
+  },
+  {
+    "id": "12",
+    "name": "Warren Buffett",
+    "profession": "Berkshire Hathaway",
+    "age": "90",
+    "country": "United States",
+    "salary": 8181654,
+    "profileThumb": "https://i.ibb.co/stQZb43/warren-buffett-modified.png"
   }
 ]

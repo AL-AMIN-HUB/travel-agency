@@ -24,8 +24,8 @@ const People = () => {
       </div>
 
       <div className="personCart-container col-md-3 text-center">
-        <h3 className="text-info fw-bolder">Tour Member: {person.length} </h3>
-        <h4 className="text-info fw-bold">Total Cost: $ </h4>
+        <h3 className="text-dark fw-bolder">Tour Member: {person.length} </h3>
+        <h4 className="text-warning fw-bold">Total Cost: $ </h4>
 
         {person.map((man) => (
           <PersonCart key={man.name} man={man}></PersonCart>
