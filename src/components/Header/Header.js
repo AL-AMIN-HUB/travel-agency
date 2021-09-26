@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="nav d-flex justify-content-around px-5">
         <div className="d-flex">
           <h2 className="text-white text-uppercase mt-2">
-            TourOf<span className="text-danger">People</span>
+            TravelOF<span className="text-danger">People</span>
           </h2>
           <div className="input-group my-2 ms-5">
             <input
