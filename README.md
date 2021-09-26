@@ -11,12 +11,6 @@ In the project uses:
 ✔ CSS3
 
 ### `How it works`
-
-This will create a bullet point list in your markdown
-Markup : \* Bullet list
-
-          * Bullet list item 2
-
-1. This is a pleasure travel website.
-2. If you click on the add to member button, those members can be seen next to the add.
-3. Button can be clicked, clicking can be seen next to his salary, many people can see the sum of everyone's salary, his name can be seen below the salary.
+**. This is a pleasure travel website.
+**. If you click on the add to member button, those members can be seen next to the add.
+**. Button can be clicked, clicking can be seen next to his salary, many people can see the sum of everyone's salary, his name can be seen below the salary.
