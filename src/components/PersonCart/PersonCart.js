@@ -10,11 +10,11 @@ const PersonCart = (props) => {
   return (
     <div className="">
       <h4 className="text-white">${total}</h4>
-      <p className="text-white text-start fw-bold fs-4">
+      <div className=" text-start fw-bold fs-4">
         {person.map((man) => (
-          <Name name={man.name}></Name>
+          <Name key={man.salary} name={man.name} img={man.profileThumb} profession={man.profession}></Name>
         ))}
-      </p>
+      </div>
     </div>
   );
 };
@@ -22,9 +22,19 @@ const PersonCart = (props) => {
 // member name added after button click
 const Name = (props) => {
   return (
-    <ul className="border-bottom">
-      <li>{props.name}</li>{" "}
-    </ul>
+    <div className="card mb-3 d-flex align-items-center justify-content-center py-2">
+      <div className="row g-0">
+        <div className="col-md-4">
+          <img src={props.img} className="img-fluid rounded-start" alt="..." />
+        </div>
+        <div className="col-md-8">
+          <div className="card-body">
+            <h4 className="card-title mt-3">{props.name}</h4>
+            <h5 className="card-title mt-3 lead">{props.profession}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

@@ -35,7 +35,15 @@ const Header = () => {
         </div>
       </nav>
       {/* travel minimum budget declare of header */}
-      <h1 className="text-center text-warning fw-bolder budget">Total Budget: $20 Million</h1>
+      <div className="budget">
+        <h1 className="explore-header text-white">Explore The World</h1>
+        <p className="lead text-white">
+          Travel to the most beautiful place in the world, like shahara desert! <br /> <b>Tips</b>: Did you know that you can start a travel blog for
+          as low as 3 USD per month? If you are looking to start a travel blog and are looking to save some cost, I highly recommend you check out 
+          <span className="text-warning"> Hostgator</span>.
+        </p>
+        <h2 className="text-center text-warning fs-1 fw-bolder">Total Budget: $20 Million</h2>
+      </div>
     </div>
   );
 };

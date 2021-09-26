@@ -1,4 +1,4 @@
-# Travel of People
+# Travel Agency
 
 This project was a tour with different rich people with live site: [ https://richest-people-tour-in-the-world.netlify.app/](https://richest-people-tour-in-the-world.netlify.app/).
 
