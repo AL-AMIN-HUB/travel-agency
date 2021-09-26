@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+import People from "./components/People/People";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is assignment 8 react</h1>
+      <Header />
+      <People></People>
     </div>
   );
 }

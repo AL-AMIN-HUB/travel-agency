@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Bernard Arnault",
-    "role": "Businessman, investor and art collector",
+    "profession": "Businessman",
     "age": "72",
     "country": "France",
     "salary": "16704211",
@@ -11,7 +11,7 @@
   {
     "id": "2",
     "name": "Bill Gates",
-    "role": "Microsoft co-founder",
+    "profession": "Microsoft co-founder",
     "age": "65",
     "country": "United States",
     "salary": "10567970",
@@ -20,7 +20,7 @@
   {
     "id": "3",
     "name": "Elon Musk",
-    "role": "CEO and Chief Engineer at SpaceX",
+    "profession": "Chief Engineer at SpaceX",
     "age": "49",
     "country": "South Africa",
     "salary": "13636091",
@@ -29,7 +29,7 @@
   {
     "id": "4",
     "name": "Jeff Bezos",
-    "role": "Computer engineer and media proprietor",
+    "profession": "Computer engineer",
     "age": "57",
     "country": "United States",
     "salary": "15851956",
@@ -38,7 +38,7 @@
   {
     "id": "5",
     "name": "Larry Page",
-    "role": "American business magnate, computer scientist",
+    "profession": "computer scientist",
     "age": "48",
     "country": "United States",
     "salary": "7755569",
@@ -47,7 +47,7 @@
   {
     "id": "6",
     "name": "Mark Zuckerberg",
-    "role": " Co-founding facebook",
+    "profession": " Co-founding facebook",
     "age": "36",
     "country": "United States",
     "salary": "8266880",
