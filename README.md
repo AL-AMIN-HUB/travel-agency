@@ -1,10 +1,14 @@
-# Man of Many Industries People
+# Travel of People
 
 This project was a tour with different rich people with live site: [ https://richest-people-tour-in-the-world.netlify.app/](https://richest-people-tour-in-the-world.netlify.app/).
 
 ## Available Scripts
 
-In the project uses: Bootstrap CSS, Font Awesome, CSS3 and finally React
+In the project uses:
+✔ React JS,
+✔ Bootstrap CSS,
+✔ Font Awesome,
+✔ CSS3
 
 ### `How it works`
 

@@ -6,6 +6,7 @@ import PersonCart from "../PersonCart/PersonCart";
 
 const People = () => {
   const [allPerson, setAllPerson] = useState([]);
+  // data load
   useEffect(() => {
     fetch("./allPeopleData.JSON")
       .then((res) => res.json())
@@ -13,10 +14,13 @@ const People = () => {
   }, []);
 
   const [person, setPerson] = useState([]);
+  // even handler control
   const HandleMember = (persons) => {
     const newMember = [...person, persons];
+    persons.isAdded = true;
     setPerson(newMember);
   };
+  // font awesome icon declare
   const addMemberIcon = <FontAwesomeIcon icon={faAddressBook} />;
   return (
     <div className="row pb-5">
@@ -28,11 +32,10 @@ const People = () => {
 
       <div className="personCart-container col-md-3 text-center">
         <h2 className=" text-info fw-bolder ">Travel Member: {person.length}</h2>
-        <h4 className=" text-info fw-bold">Total Cost: $ </h4>
+        <h4 className=" text-info fw-bold">Total Cost:</h4>
 
-        {person.map((man) => (
-          <PersonCart key={man.name} man={man}></PersonCart>
-        ))}
+        <PersonCart key={person.name} person={person}></PersonCart>
+
         <button className="mt-5 btn btn btn-warning fs-5">{addMemberIcon} See all members</button>
       </div>
     </div>
