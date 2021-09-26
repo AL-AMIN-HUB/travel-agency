@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import Person from "../Person/Person";
 import PersonCart from "../PersonCart/PersonCart";
 
@@ -15,6 +17,7 @@ const People = () => {
     const newMember = [...person, persons];
     setPerson(newMember);
   };
+  const addMemberIcon = <FontAwesomeIcon icon={faAddressBook} />;
   return (
     <div className="row pb-5">
       <div className="person-container col-md-9 ps-5 row row-cols-md-3">
@@ -30,6 +33,7 @@ const People = () => {
         {person.map((man) => (
           <PersonCart key={man.name} man={man}></PersonCart>
         ))}
+        <button className="mt-5 btn btn btn-warning fs-5">{addMemberIcon} See all members</button>
       </div>
     </div>
   );
