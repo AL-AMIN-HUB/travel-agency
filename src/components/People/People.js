@@ -16,7 +16,7 @@ const People = () => {
     setPerson(newMember);
   };
   return (
-    <div className="row">
+    <div className="row pb-5">
       <div className="person-container col-md-9 ps-5 row row-cols-md-3">
         {allPerson.map((person) => (
           <Person key={person.id} person={person} handleMember={HandleMember}></Person>
@@ -24,8 +24,8 @@ const People = () => {
       </div>
 
       <div className="personCart-container col-md-3 text-center">
-        <h2 className="text-dark fw-bolder ">Tour Member: {person.length}</h2>
-        <h4 className="text-warning fw-bold">Total Cost: $ </h4>
+        <h2 className=" text-info fw-bolder ">Tour Member: {person.length}</h2>
+        <h4 className=" text-info fw-bold">Total Cost: $ </h4>
 
         {person.map((man) => (
           <PersonCart key={man.name} man={man}></PersonCart>

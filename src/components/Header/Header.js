@@ -13,7 +13,7 @@ const Header = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="search rich industry people"
+              placeholder="Search rich industry people"
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
             />
@@ -34,7 +34,7 @@ const Header = () => {
           </a>
         </div>
       </nav>
-      <h1 className="text-center budget">Total Budget: $150 Million</h1>
+      <h1 className="text-center text-warning fw-bolder budget">Total Budget: $150 Million</h1>
     </div>
   );
 };
