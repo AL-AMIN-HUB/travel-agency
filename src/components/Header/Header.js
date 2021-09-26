@@ -35,7 +35,7 @@ const Header = () => {
         </div>
       </nav>
       {/* travel minimum budget declare of header */}
-      <h1 className="text-center text-warning fw-bolder budget">Total Budget: $150 Million</h1>
+      <h1 className="text-center text-warning fw-bolder budget">Total Budget: $20 Million</h1>
     </div>
   );
 };
