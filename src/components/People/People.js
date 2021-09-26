@@ -24,7 +24,7 @@ const People = () => {
       </div>
 
       <div className="personCart-container col-md-3 text-center">
-        <h3 className="text-dark fw-bolder">Tour Member: {person.length} </h3>
+        <h2 className="text-dark fw-bolder ">Tour Member: {person.length}</h2>
         <h4 className="text-warning fw-bold">Total Cost: $ </h4>
 
         {person.map((man) => (
